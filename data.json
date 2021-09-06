@@ -1,0 +1,121 @@
+{
+  "last": {
+    "nr": 494,
+    "currency": "EUR",
+    "date": {
+      "full": "Die Lottozahlen vom Freitag, den 03.09.2021",
+      "day": 3,
+      "month": 9,
+      "year": 2021,
+      "hour": 21,
+      "minute": 0,
+      "dayOfWeek": "Freitag"
+    },
+    "closingDate": "03.09.2021, 19:00",
+    "lateClosingDate": "03.09.2021, 20:10",
+    "drawingDate": "03.09.2021, 21:00",
+    "numbers": [
+      5,
+      9,
+      20,
+      44,
+      48
+    ],
+    "euroNumbers": [
+      4,
+      10
+    ],
+    "jackpot": "35",
+    "marketingJackpot": "35",
+    "specialMarketingJackpot": "35",
+    "climbedSince": 31,
+    "Winners": 856973,
+    "odds": {
+      "rank0": {
+        "winners": 0,
+        "specialPrize": 0,
+        "prize": 0
+      },
+      "rank1": {
+        "winners": 0,
+        "specialPrize": 0,
+        "prize": 3500000000
+      },
+      "rank2": {
+        "winners": 6,
+        "specialPrize": 0,
+        "prize": 36091520
+      },
+      "rank3": {
+        "winners": 9,
+        "specialPrize": 0,
+        "prize": 8492120
+      },
+      "rank8": {
+        "winners": 30069,
+        "specialPrize": 0,
+        "prize": 2620
+      },
+      "rank9": {
+        "winners": 36147,
+        "specialPrize": 0,
+        "prize": 2110
+      },
+      "rank10": {
+        "winners": 71081,
+        "specialPrize": 0,
+        "prize": 1540
+      },
+      "rank4": {
+        "winners": 48,
+        "specialPrize": 0,
+        "prize": 530750
+      },
+      "rank5": {
+        "winners": 728,
+        "specialPrize": 0,
+        "prize": 31490
+      },
+      "rank6": {
+        "winners": 1463,
+        "specialPrize": 0,
+        "prize": 12180
+      },
+      "rank11": {
+        "winners": 160581,
+        "specialPrize": 0,
+        "prize": 1230
+      },
+      "rank7": {
+        "winners": 2018,
+        "specialPrize": 0,
+        "prize": 7570
+      },
+      "rank12": {
+        "winners": 554823,
+        "specialPrize": 0,
+        "prize": 870
+      }
+    }
+  },
+  "next": {
+    "nr": 495,
+    "currency": "EUR",
+    "date": {
+      "full": "Die Lottozahlen vom Freitag, den 10.09.2021",
+      "day": 10,
+      "month": 9,
+      "year": 2021,
+      "hour": 21,
+      "minute": 0,
+      "dayOfWeek": "Freitag"
+    },
+    "closingDate": "10.09.2021, 19:00",
+    "lateClosingDate": "10.09.2021, 20:10",
+    "drawingDate": "10.09.2021, 21:00",
+    "jackpot": "48",
+    "marketingJackpot": "48",
+    "specialMarketingJackpot": "48",
+    "climbedSince": 31
+  }
+}
