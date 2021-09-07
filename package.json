@@ -1,5 +1,5 @@
 {
-  "name": "eurojackpot1111111111",
+  "name": "eurojackpot",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,11 +16,18 @@
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
+  "devDependencies": {
+    "@types/styled-components": "^5.1.13",
+    "babel-plugin-styled-components": "^1.13.2"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "resolutions": {
+    "styled-components": "^5"
   },
   "eslintConfig": {
     "extends": [
