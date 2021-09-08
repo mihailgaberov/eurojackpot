@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { Container } from "./styles";
 
 interface OddsRowProps {
-  tier: string;
+  tier: string | undefined;
   match: string;
   winners: string;
   amount: string;
