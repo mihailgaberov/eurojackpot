@@ -48,13 +48,14 @@ function App() {
         <Numbers regularNumbers={data?.last.numbers} euroNumbers={data?.last.euroNumbers} />
         <MainContainer>
           <OddsContainer>
-            <OddsRow tier='Tier' match='Match' winners='Winners' amount='Amount' isTitle={true} />
+            <OddsRow order={0} tier='Tier' match='Match' winners='Winners' amount='Amount' isTitle={true} />
             {sortOddsByPrize(Object.values(data?.last.odds)).map((odd, idx) => {
               if (odd.prize === 0) {
                 return '';
               }
 
               return <OddsRow key={idx}
+                              order={idx + 1}
                               tier={mapArabicToRomanNumbers.get(String(idx + 1))}
                               match={mapMatchesToIndexes.get(String(idx + 1))}
                               winners={formatNumber(odd.winners).toString()}
