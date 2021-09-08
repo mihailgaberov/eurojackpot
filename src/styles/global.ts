@@ -19,6 +19,7 @@ export default createGlobalStyle`
 
   #root {
     margin: 0 auto;
+    max-width: 960px;
   }
 
   body {
