@@ -45,6 +45,7 @@ export const sortOddsByPrize = (odds: Odd[]) => {
 
 export interface JackpotData {
   last: {
+    nr: number;
     date: {
       full: string;
     };
@@ -59,6 +60,6 @@ export interface JackpotData {
 }
 
 
-export const getCurrentDate = (data: JackpotData) => {
+export const getClosingDate = (data: JackpotData): string => {
   return data.last.closingDate.split(',')[0];
 }

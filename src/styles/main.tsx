@@ -14,7 +14,7 @@ export const OddsContainer = styled.article`
 
   @media only screen and (min-width: 920px) {
     margin-right: 1em;
-    width: 98%;
+    width: 100%;
   }
 `
 
@@ -25,7 +25,7 @@ export const MessageCardsContainer = styled.aside`
   margin: 1em auto;
   
   @media only screen and (min-width: 920px) {
-    width: 30%;
+    width: 40%;
     margin: 0;
   }
 `

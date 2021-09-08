@@ -7,7 +7,14 @@ import Numbers from "./components/Numbers";
 import OddsRow from "./components/OddsRow";
 import { MainContainer, MessageCardsContainer, OddsContainer } from "./styles/main";
 import MessageCard from "./components/MessageCard";
-import { formatCurrency, formatNumber, JackpotData, mapArabicToRomanNumbers, sortOddsByPrize } from "./helpers";
+import {
+  formatCurrency,
+  formatNumber,
+  getClosingDate,
+  JackpotData,
+  mapArabicToRomanNumbers,
+  sortOddsByPrize
+} from "./helpers";
 
 
 function App() {
@@ -54,8 +61,8 @@ function App() {
             })}
           </OddsContainer>
           <MessageCardsContainer>
-            <MessageCard />
-            <MessageCard />
+            <MessageCard closingDate={getClosingDate(data)} isPrimary={true} />
+            <MessageCard closingDate={getClosingDate(data)} isPrimary={false} />
           </MessageCardsContainer>
         </MainContainer>
       </>}
