@@ -22,7 +22,7 @@ function App() {
       ]} euroNumbers={[ 4, 10 ]} />
       <MainContainer>
         <OddsContainer>
-          <OddsRow tier={'Tier'} match={'Match'} winners={'Winners'} amount={'Amount'} />
+          <OddsRow tier={'Tier'} match={'Match'} winners={'Winners'} amount={'Amount'} isTitle={true} />
           {Object.values({
             "rank0": {
               "winners": 0,
@@ -35,7 +35,10 @@ function App() {
               "prize": 3500000000
             }
           }).map((odd, idx) => {
-            return <OddsRow key={idx} tier={'I'} match={'5 Numbers + 2 Euronumbers'} winners={'0x'}
+            return <OddsRow key={idx}
+                            tier={'I'}
+                            match={'5 Numbers + 2 Euronumbers'}
+                            winners={'0x'}
                             amount={odd.prize.toString()} />
           })}
         </OddsContainer>

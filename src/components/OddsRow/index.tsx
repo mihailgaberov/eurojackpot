@@ -6,11 +6,12 @@ interface OddsRowProps {
   match: string;
   winners: string;
   amount: string;
+  isTitle?: boolean;
 }
 
-const OddsRow: FunctionComponent<OddsRowProps> = ({ tier, match, winners, amount }) => {
+const OddsRow: FunctionComponent<OddsRowProps> = ({ tier, match, winners, amount, isTitle= false }) => {
   return (
-    <Container>
+    <Container isTitle={isTitle}>
       <div>{tier}</div>
       <div>{match}</div>
       <div>{winners}</div>
