@@ -3,7 +3,7 @@ import { Container } from "./styles";
 
 interface OddsRowProps {
   tier: string | undefined;
-  match: string;
+  match: string | undefined;
   winners: string;
   amount: string;
   isTitle?: boolean;

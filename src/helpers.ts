@@ -13,6 +13,21 @@ export const mapArabicToRomanNumbers = new Map<string, string>([
   ['12', 'XII'],
 ]);
 
+export const mapMatchesToIndexes = new Map<string, string>([
+  ['1', '5 Numbers + 2 Euronumbers'],
+  ['2', '5 Numbers + 1 Euronumber'],
+  ['3', '5 Numbers + 0 Euronumbers'],
+  ['4', '4 Numbers + 2 Euronumbers'],
+  ['5', '4 Numbers + 1 Euronumber'],
+  ['6', '4 Numbers + 0 Euronumber'],
+  ['7', '3 Numbers + 2 Euronumbers'],
+  ['8', '2 Numbers + 2 Euronumbers'],
+  ['9', '3 Numbers + 1 Euronumber'],
+  ['10', '3 Numbers + 0 Euronumbers'],
+  ['11', '1 Number + 2 Euronumbers'],
+  ['12', '2 Numbers + 1 Euronumber'],
+]);
+
 
 export const formatNumber = (arg: number): string => {
   return new Intl.NumberFormat('en-US').format(arg);

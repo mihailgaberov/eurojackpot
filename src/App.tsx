@@ -12,7 +12,7 @@ import {
   formatNumber,
   getClosingDate,
   JackpotData,
-  mapArabicToRomanNumbers,
+  mapArabicToRomanNumbers, mapMatchesToIndexes,
   sortOddsByPrize
 } from "./helpers";
 
@@ -53,9 +53,10 @@ function App() {
               if (odd.prize === 0) {
                 return '';
               }
+
               return <OddsRow key={idx}
-                              tier={mapArabicToRomanNumbers.get(String(idx))}
-                              match={'5 Numbers + 2 Euronumbers'}
+                              tier={mapArabicToRomanNumbers.get(String(idx + 1))}
+                              match={mapMatchesToIndexes.get(String(idx + 1))}
                               winners={formatNumber(odd.winners).toString()}
                               amount={formatCurrency(odd.prize).toString()} />
             })}
