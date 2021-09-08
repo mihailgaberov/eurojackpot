@@ -6,6 +6,7 @@ import TitleRow from "./components/TitleRow";
 import Numbers from "./components/Numbers";
 import OddsRow from "./components/OddsRow";
 import { MainContainer, MessageCardsContainer, OddsContainer } from "./styles/main";
+import MessageCard from "./components/MessageCard";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         20,
         44,
         48
-      ]} euroNumbers={[ 4, 10 ]} />
+      ]} euroNumbers={[4, 10]} />
       <MainContainer>
         <OddsContainer>
           <OddsRow tier={'Tier'} match={'Match'} winners={'Winners'} amount={'Amount'} isTitle={true} />
@@ -42,7 +43,9 @@ function App() {
                             amount={odd.prize.toString()} />
           })}
         </OddsContainer>
-        <MessageCardsContainer>message card components here...</MessageCardsContainer>
+        <MessageCardsContainer>
+          <MessageCard />
+        </MessageCardsContainer>
       </MainContainer>
     </>
   );
