@@ -9,18 +9,20 @@ export const MainContainer = styled.div`
   }
 `
 export const OddsContainer = styled.article`
-  width: 100%;
+  margin: 0 auto;
+  width: 96%;
 
   @media only screen and (min-width: 920px) {
-    width: 70%;
+    margin-right: 1em;
+    width: 98%;
   }
 `
 
 export const MessageCardsContainer = styled.aside`
   display: flex;
   flex-direction: column;
-  width: 100%;
-  margin: 1em;
+  width: 96%;
+  margin: 1em auto;
   
   @media only screen and (min-width: 920px) {
     width: 30%;

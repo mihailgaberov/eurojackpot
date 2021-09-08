@@ -6,8 +6,6 @@ export const Container = styled.div`
   box-shadow: -7px 0 0 0 #69a507;
   margin-bottom: .9em;
   padding: 1.225em;
-  margin-left: 1.725em;
-  max-width: 20em;
   
   h2 {
     font-size: 17px;
