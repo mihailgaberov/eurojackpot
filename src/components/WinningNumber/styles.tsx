@@ -5,10 +5,11 @@ interface WinningNumberProps {
 }
 
 export const Container = styled.div<WinningNumberProps>`
-  border: 2px solid ${props => props.borderColor};
+  border: 1px solid ${props => props.borderColor};
   border-radius: 50%;
-  width: 25px;
-  height: 25px;
+  width: 28px;
+  height: 28px;
+  margin-right: .3em;
   display: flex;
   align-items: center;
   justify-content: center;

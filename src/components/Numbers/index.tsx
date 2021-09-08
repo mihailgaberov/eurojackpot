@@ -15,10 +15,10 @@ const Numbers: FunctionComponent<NumbersProps> = ({ regularNumbers, euroNumbers 
           return <WinningNumber borderColor={'lightgrey'} key={idx} value={num} />
         })}
       </RegularNumbersContainer>
-      <StyledPlusSign>+</StyledPlusSign>
+      <StyledPlusSign />
       <EuroNumbersContainer>
         {euroNumbers.map((num, idx) => {
-          return <WinningNumber borderColor={'orange'} key={idx} value={num} />
+          return <WinningNumber borderColor={'#ca7f26'} key={idx} value={num} />
         })}
       </EuroNumbersContainer>
     </Container>

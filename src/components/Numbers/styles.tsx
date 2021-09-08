@@ -1,17 +1,17 @@
 import styled from "styled-components";
+import plus from '../../assets/plus.svg';
 
 export const Container = styled.div`
   display: flex;
+  margin-bottom: 1em;
 `
 
 export const StyledPlusSign = styled.div`
-  font-size: 2em;
-  font-weight: 200;
-  width: 25px;
-  display: flex;
-  height: 25px;
-  align-items: center;
-  justify-content: center;
+  width: 28px;
+  height: 28px; 
+  background: url(${plus}) center center no-repeat;
+  background-size: 62%;
+  opacity: 0.5;
 `
 
 export const RegularNumbersContainer = styled.div`
