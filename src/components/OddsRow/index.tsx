@@ -14,7 +14,7 @@ const OddsRow: FunctionComponent<OddsRowProps> = ({ tier, match, winners, amount
     <Container isTitle={isTitle}>
       <div>{tier}</div>
       <div>{match}</div>
-      <div>{winners}</div>
+      <div>{winners}{!isTitle? 'x' : ''}</div>
       <div>{amount}</div>
     </Container>
   );
