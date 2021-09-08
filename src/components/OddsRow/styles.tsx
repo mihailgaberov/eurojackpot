@@ -23,8 +23,4 @@ export const Container = styled.div<ContainerProps>`
   &:last-child {
     border-top: none;
   }
-
-  /*@media only screen and (min-width: 920px) {
-    flex-direction: column;
-  }*/
 `
