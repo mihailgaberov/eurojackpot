@@ -63,7 +63,7 @@ function App() {
             })}
           </OddsContainer>
           <MessageCardsContainer>
-            <MessageCard closingDate={getClosingDate(data)} isPrimary={true} />
+            <MessageCard closingDate={getClosingDate(data)} isPrimary={true} drawNumber={data.last.nr} />
             <MessageCard closingDate={getClosingDate(data)} isPrimary={false} />
           </MessageCardsContainer>
         </MainContainer>
