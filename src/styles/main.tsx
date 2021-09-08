@@ -18,10 +18,13 @@ export const OddsContainer = styled.article`
 
 export const MessageCardsContainer = styled.aside`
   display: flex;
+  flex-direction: column;
   width: 100%;
-
+  margin: 1em;
+  
   @media only screen and (min-width: 920px) {
     width: 30%;
+    margin: 0;
   }
 `
 

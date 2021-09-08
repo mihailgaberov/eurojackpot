@@ -45,6 +45,7 @@ function App() {
         </OddsContainer>
         <MessageCardsContainer>
           <MessageCard />
+          <MessageCard />
         </MessageCardsContainer>
       </MainContainer>
     </>
