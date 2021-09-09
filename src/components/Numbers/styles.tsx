@@ -3,7 +3,12 @@ import plus from '../../assets/plus.svg';
 
 export const Container = styled.div`
   display: flex;
-  margin-bottom: 1em;
+  width: 96%;
+  margin: 1em auto;
+
+  @media only screen and (min-width: 920px) {
+    width: 100%;
+  }
 `
 
 export const StyledPlusSign = styled.div`
