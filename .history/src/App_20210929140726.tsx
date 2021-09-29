@@ -58,7 +58,7 @@ function App() {
                 order={idx + 1}
                 tier={mapArabicToRomanNumbers.get(String(idx + 1))}
                 match={mapMatchesToIndexes.get(String(idx + 1))}
-                winners={formatNumber(odd.winners)}
+                winners={formatNumber(odd.winners).toString()}
                 amount={formatCurrency(odd.prize)} />
             })}
           </OddsContainer>

@@ -23,11 +23,11 @@ function App() {
   useEffect(() => {
     const getData = () => {
       fetch('data.json', {
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
+          headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          }
         }
-      }
       ).then((response) => {
         return response.json();
       })
@@ -55,11 +55,11 @@ function App() {
               }
 
               return <OddsRow key={idx}
-                order={idx + 1}
-                tier={mapArabicToRomanNumbers.get(String(idx + 1))}
-                match={mapMatchesToIndexes.get(String(idx + 1))}
-                winners={formatNumber(odd.winners)}
-                amount={formatCurrency(odd.prize)} />
+                              order={idx + 1}
+                              tier={mapArabicToRomanNumbers.get(String(idx + 1))}
+                              match={mapMatchesToIndexes.get(String(idx + 1))}
+                              winners={formatNumber(odd.winners).toString()}
+                              amount={formatCurrency(odd.prize).toString()} />
             })}
           </OddsContainer>
           <MessageCardsContainer>
