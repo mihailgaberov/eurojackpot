@@ -4,6 +4,7 @@ React app showing current EuroJackpot winning numbers.
 <hr />
 
 <!-- prettier-ignore-start -->
+[![Tests](https://github.com/mihailgaberov/eurojackpot/actions/workflows/main.yml/badge.svg)](https://github.com/mihailgaberov/eurojackpot/actions/workflows/main.yml)
 [![Build Status][build-badge]][build]
 
 [build-badge]: https://img.shields.io/github/deployments/mihailgaberov/eurojackpot/production?label=vercel&logoColor=vercel
